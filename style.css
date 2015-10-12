@@ -179,6 +179,12 @@ border-bottom: 4px solid rgba(118, 118, 118, 0.5);
      margin-left: 9px;
 
    }
+
+   .redarrow:hover{
+     transform: rotate(180deg);
+     transition: all 5s;
+   }
+
    .redarrow::after {
      content: "";
 	width: 0;
