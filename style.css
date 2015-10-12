@@ -56,6 +56,11 @@ padding-bottom: 134px;
 margin-left: 75px;
 }
 
+.eagle:hover{
+  transform: rotate(360deg);
+  transition: all 5s;
+}
+
  .navbar {
    width:55.5%;
    margin-left:auto;
@@ -418,6 +423,19 @@ color:white}
   width: 101%;
   /*position: relative;*/
 }
+
+.feedback input:focus {
+  border:2px solid #CC4949;
+
+}
+.feedback input {
+  display: block;
+  float: right;
+
+
+
+
+
 
 /*.inline {
   display: inline-block;
